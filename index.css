@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1515343480029-43cdfe6b6aae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
+    background-size: cover;
+    display:flex;
+    height:100vh;
+    justify-content:flex-end;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.container{
+ background-color: #ffffff;
+ width: 50%;
+ padding:30px;
+ display: flex;
+ flex-direction: column;
+ box-shadow: 5px 10px 8px rgba(0,0,0 .10);
+ height: 100%;
+ 
+}
+
+
+button{
+  margin: 30px;
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 15px;
+  background-color: green;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+
+}
+
+
+form{
+  margin:5px;
+  padding: 25px;
+  height: 100vh;
+
+}
+
+.button-area  a{ 
+ margin:5px;
+ text-decoration: none;
+}
+.img-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
+
+  margin:auto;
+  padding: 10px 75px;
+  background-color: rgba(0,0,0,.5);
+  color:rgb(255, 255, 255)
+    
+  
+ 
+}
+
+.img-div p{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+img{
+ width: 20%;
+ height: 20%;
+
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.form-row input{
+  padding:5px 25px;
+  margin:5px 0px 5px;
+  border-radius:4px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #D6D9DC;
+}
+
+fieldset{
+  border: none;
+  display:flex;
+  box-sizing: border-box;
+  gap: 50px;
+  
+}
+
+.form-row input[type='email']:invalid {
+  border: 1px solid #D55C5F;
+  
+}
+
+ 
+
+.password-output{
+ color:red;
+ display:none;
+
+}
